@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/htmlstart/mainpage/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="/htmlstart/mainpage/clock.js"></script>
+    <script src="/htmlstart/mainpage/weather/app.js"></script>
+
+    <title>Weather</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="header">Welcome!</h1>
+        <nav>
+            <ol class="navbar">
+                <li><a href="/htmlstart/mainpage/index.html">Home</a></li>
+                <li><a href="/htmlstart/mainpage/login/login.html">Login</a></li>
+                <li><a href="/htmlstart/mainpage/weather/weather.html">Weather</a></li>
+                <li><a href="/htmlstart/mainpage/profile/profile.html">Profile</a></li>
+                <li id = "clock" onload="currentTime()"></li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <div id="container">
+            <div class="curvedBox">
+                <!--<div id="city"></div>-->
+                <div id="city"><label><input type="text" onfocusout="foo()" placeholder="Enter a city" onfocus="this.placeholder=''" onblur="this.placeholder=''"></label></div>
+                <div class="wrapper">
+                    <div id="clouds"></div>
+                    <div id="temp"></div>
+                </div>
+                <div class="wrapper">
+                    <div id="tempmin"></div>
+                    <div id="tempmax"></div>
+                </div>
+                <div id="humidity"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="bottomindex">
+            <i>2023 | This page was made by Mateusz Jankowski</i>
+        </div>
+    </footer>
+</body>
+</html>
