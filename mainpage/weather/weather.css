@@ -23,7 +23,7 @@ nav
     padding-right: 6%;
     position: fixed;
     top: 0;
-    background-image: linear-gradient(to right, #8AAAE5 , white);
+    background-image: linear-gradient(to right, #4d8bff96 , white);
 }
 
 nav ol
@@ -82,42 +82,56 @@ main
     margin: 1%;
 }
 
-#container
+#weatherContainer
 {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    gap: 4%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#profilePicture img
+#message
 {
-    max-width: 100%;
-    height: auto;
-    border-radius: 1%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 70%;
 }
 
-#aboutMe
+.container
 {
-    width: 26%;
-} 
-
-footer
-{
-    margin-top: 5%;
-    margin-left: 20%;
+    width: 25%;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-footer a
+#temp
 {
-    padding: 1% 1% 1% 1%;
-    margin: 1%;
-    color: #8AAAE5;
+    font-size: 2vw;
 }
 
-footer a:hover
+#tempmin
 {
-    opacity: 50%;
+    margin-right: 2%;
+    opacity: 70%;
+    font-size: 0.9vw;
 }
+
+#tempmax
+{
+    margin-right: 5%;
+    opacity: 70%;
+    font-size: 0.9vw;
+}
+
+#humidity
+{
+    opacity: 70%;
+}
+
+
