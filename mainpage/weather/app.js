@@ -21,7 +21,7 @@ function weather(val){
            : clouds == '11d' || '11n' ? '/mainpage/icons/11d.png'
            : clouds == '13d' || '13n' ? '/mainpage/icons/13d.png'
            : clouds == '50d' || '50n' ? '/mainpage/icons/50d.png'
-           : console.log("image error");
+           : console.error("image source error");
 
         document.getElementById('image').src = ima;
         document.getElementById('message').textContent = " ";
