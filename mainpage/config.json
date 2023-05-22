@@ -59,6 +59,12 @@
       "css": "down-open-mini",
       "code": 59400,
       "src": "entypo"
+    },
+    {
+      "uid": "55605ca79a65def1a9c300037ff1d0d5",
+      "css": "paw",
+      "code": 61872,
+      "src": "fontawesome"
     }
   ]
 }

@@ -29,10 +29,20 @@ header
     align-items: center;
 }
 
-#clock
+.name
 {
     margin-right: auto;
-    font-size: 1.8vw;
+}
+
+.icon-paw
+{
+    color: var(--deepBlue);
+}
+
+.name p
+{
+    display: inline-block;
+    font-weight: 600;
 }
 
 header li
@@ -45,6 +55,12 @@ header li a
 {
     text-decoration: none;
     color: var(--grey);
+}
+
+#clock
+{
+    margin-left: 4%;
+    font-size: 1.5vw;;
 }
 
 main
