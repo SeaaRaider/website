@@ -17,84 +17,38 @@
 
     <title>StronaCV</title>
 </head>
-
 <body>
-    <nav>
-        <ol>
-            <li id = "clock" onload="currentTime()"></li>
-            <li>
-                <a href="/mainpage/index.html">
-                    <i class="icon-home">
-                    </i>
-                    HOME
-                </a>
-            </li>
-<!--            <li>
-                <a href="/htmlstart/mainpage/login/login.html">
-                    <i class="icon-login">
-                    </i>
-                    LOGIN
-                </a>
-            </li>
-            <li>
-                <a href="/htmlstart/mainpage/weather/weather.html">
-                    <i class="icon-user">
-                    </i>
-                    PROFILE
-                </a>
-            </li> -->
-            <li>
-                <a href="/mainpage/weather/weather.html">
-                    <i class="icon-cloud-sun-inv">
-                    </i>
-                    WEATHER
-                </a>
-            </li>
-        </ol>
-    </nav>
-    
+    <header>
+        <div id="clock" onload="currentTime()"></div>
+        <nav>
+            <ol>
+                <li><a href="">Home<i class="icon-down-open-mini"></i></a></li>
+                <li><a href="">Weather<i class="icon-down-open-mini"></i></a></li>
+            </ol>
+        </nav>
+    </header>
+
     <main>
-        <article>
-            <div id="container">
-                <div id="profilePicture">
-                    <img src="/mainpage/icons/corgis.jpg"> <!--corgis2-->
-                </div>
-                <div id="aboutMe">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Morbi condimentum mi et orci commodo consectetur nec sed nulla.
-                    Morbi auctor sem aliquam ipsum dictum, sit amet varius nunc fermentum.
-                    Morbi sit amet neque sagittis, feugiat ipsum a, venenatis purus.
-                    Morbi ac risus non ante ornare semper.
-                    Aenean quis libero aliquet nisi feugiat vehicula.
-                    Fusce eu nunc pulvinar, volutpat nulla quis, consectetur quam.
-                    Nullam varius risus quis felis sagittis congue.
-                    Donec quis ipsum eu felis ultrices efficitur quis id neque.
-                    Vivamus mollis augue id tellus ultricies cursus.
-                    Duis ultrices justo at nulla pretium, faucibus volutpat nisi faucibus.
-                    Quisque viverra nunc a pulvinar congue.
-                    Donec a magna efficitur, ornare turpis at, ornare dolor.
+        <div class="container">
+            <div class="profilePicture"><img src="/mainpage/icons/profile.png"></div>
+            <div class="profileText">
+                <p class="mateusz">Mateusz <p class="jankowski">Jankowski</p></p>
+                <p class="aboutMe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolore praesentium quos tempore qui soluta culpa, officiis saepe velit rerum
+                    necessitatibus non doloremque sit commodi quia itaque dolor, explicabo consequuntur.</p>
+                <div class="media">
+                    <p> <i class="icon-phone"></i> Restricted</p>
+                    <p> <i class="icon-gmail"></i> m4.jankowski@gmail.com</p>
+                    <p> <i class="icon-github-circled"></i> <a href="https://github.com/SeaaRaider">Click on me!</a></p>
+                    <p> <i class="icon-linkedin"></i> Test</p>
                 </div>
             </div>
-        </article>
+        </div>
     </main>
 
     <footer>
-        <a href="/mainpage/index.html">
-            <i class="icon-gmail">
-            </i>
-        </a>
-        <a href="/mainpage/index.html">
-            <i class="icon-phone">
-            </i>
-        </a>
-        <a href="/mainpage/index.html">
-            <i class="icon-github-circled">
-            </i>
-        </a>
-        <a href="/mainpage/index.html">
-            <i class="icon-linkedin">
-            </i>
-        </a>
+        <div class="">
+            
+        </div>
     </footer>
 </body>
 </html>
