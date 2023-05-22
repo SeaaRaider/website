@@ -1,7 +1,7 @@
 :root
 {
     --deepBlue: #0a5cd6;
-    --grey: #5a5a5a;
+    --grey: #6e6e6e;
 }
 
 html
@@ -42,6 +42,12 @@ header
 .name p
 {
     display: inline-block;
+    font-weight: 600;
+}
+
+#picked
+{
+    color: black;
     font-weight: 600;
 }
 

@@ -7,75 +7,44 @@
     <meta name="description" content="Moja strona CV">
     <meta name="keywords" content="CV, strona, QA, programowanie, testy">
 
-    <link rel="stylesheet" href="/mainpage/weather/weather.css" type="text/css">
+    <link rel="stylesheet" href="/mainpage/index.css" type="text/css">
     <link rel="stylesheet" href="/mainpage/css/fontello.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
     <script src="/mainpage/clock.js"></script>
-    <script src="/mainpage/weather/app.js"></script>
 
     <title>StronaCV</title>
 </head>
 
 <body>
-    <nav>
-        <ol>
-            <li id = "clock" onload="currentTime()"></li>
-            <li>
-                <a href="/mainpage/index.html">
-                    <i class="icon-home">
-                    </i>
-                    HOME
-                </a>
-            </li>
-<!--            <li>
-                <a href="/htmlstart/mainpage/login/login.html">
-                    <i class="icon-login">
-                    </i>
-                    LOGIN
-                </a>
-            </li>
-            <li>
-                <a href="/htmlstart/mainpage/weather/weather.html">
-                    <i class="icon-user">
-                    </i>
-                    PROFILE
-                </a>
-            </li> -->
-            <li>
-                <a href="/mainpage/weather/weather.html">
-                    <i class="icon-cloud-sun-inv">
-                    </i>
-                    WEATHER
-                </a>
-            </li>
-        </ol>
-    </nav>
-    
+    <header>
+        <i class="icon-paw"></i><div class="name"><p>Mateusz</p> Jankowski</div>
+        <nav>
+            <ol>
+                <li><a href="/mainpage/index.html">Home<i class="icon-down-open-mini"></i></a></li>
+                <li><a href="/mainpage/weather/weather.html" id="picked">Weather<i class="icon-down-open-mini"></i></a></li>
+            </ol>
+        </nav>
+        <div id="clock" onload="currentTime()"></div>
+    </header>
+
     <main>
-        <article>
-            <div id="weatherContainer">
-                <div id="message">(API restricted to Polish cities for now)</div>
-                <div id="city">
-                    <label> <input type="text" name="" id="enterCity" placeholder="Enter a city" onchange="weather(document.getElementById('enterCity').value)"> </label>
-                </div>
-                <div class="container">
-                    <div id="clouds"><img id="image" src=""></div>
-                    <div id="temp"></div>
-                </div>
-                <div class="container">
-                    <div id="tempmin"></div>
-                    <div id="tempmax"></div>
-                    <div id="humidity"></div>
+        <div class="container">
+            <div class="profilePicture"><img src="/mainpage/icons/profile.png"></div>
+            <div class="profileText">
+                <p class="mateusz">Mateusz <p class="jankowski">Jankowski</p></p>
+                <p class="aboutMe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolore praesentium quos tempore qui soluta culpa, officiis saepe velit rerum
+                    necessitatibus non doloremque sit commodi quia itaque dolor, explicabo consequuntur.</p>
+                <div class="media">
+                    <p> <i class="icon-phone"></i> Restricted</p>
+                    <p> <i class="icon-gmail"></i> m4.jankowski@gmail.com</p>
+                    <p> <i class="icon-github-circled"></i> <a href="https://github.com/SeaaRaider">Click on me!</a></p>
+                    <p> <i class="icon-linkedin"></i> Test</p>
                 </div>
             </div>
-        </article>
+        </div>
     </main>
-
-    <footer>
-        
-    </footer>
 </body>
 </html>
