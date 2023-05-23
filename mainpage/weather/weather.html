@@ -7,13 +7,15 @@
     <meta name="description" content="Moja strona CV">
     <meta name="keywords" content="CV, strona, QA, programowanie, testy">
 
-    <link rel="stylesheet" href="/mainpage/index.css" type="text/css">
+    <link rel="stylesheet" href="/mainpage/weather/weather.css" type="text/css">
     <link rel="stylesheet" href="/mainpage/css/fontello.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
+
     <script src="/mainpage/clock.js"></script>
+    <script src="/mainpage/weather/app.js"></script>
 
     <title>StronaCV</title>
 </head>
@@ -31,19 +33,21 @@
     </header>
 
     <main>
-        <div class="container">
-            <div class="profilePicture"><img src="/mainpage/icons/profile.png"></div>
-            <div class="profileText">
-                <p class="mateusz">Mateusz <p class="jankowski">Jankowski</p></p>
-                <p class="aboutMe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolore praesentium quos tempore qui soluta culpa, officiis saepe velit rerum
-                    necessitatibus non doloremque sit commodi quia itaque dolor, explicabo consequuntur.</p>
-                <div class="media">
-                    <p> <i class="icon-phone"></i> Restricted</p>
-                    <p> <i class="icon-gmail"></i> m4.jankowski@gmail.com</p>
-                    <p> <i class="icon-github-circled"></i> <a href="https://github.com/SeaaRaider">Click on me!</a></p>
-                    <p> <i class="icon-linkedin"></i> Test</p>
-                </div>
+        <div class="weatherContainer">
+            <div class="container">
+                <label><input id="enterCity" type="text" name="" placeholder="Enter a city" onchange="weather(document.getElementById('enterCity').value)"></label>
             </div>
+            <div class="container">
+                <div><img id="image" src=""></div>
+                <div id="temp"></div>
+            </div>
+            <div class="container">
+                <div id="feelsLike"></div>
+                <div id="humidity"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="message">Only Polish cities are working right now</div>
         </div>
     </main>
 </body>
