@@ -16,23 +16,29 @@
 
     <script src="/mainpage/clock.js"></script>
     <script src="/mainpage/weather/app.js"></script>
+    <script src="/mainpage/loadIcon.js"></script>
 
     <title>StronaCV</title>
 </head>
 
 <body>
     <header>
-        <i class="icon-paw"></i><div class="name"><p>Mateusz</p> Jankowski</div>
+        <i class="icon-paw"></i><div class="name"><span>Mateusz</span> Jankowski</div>
         <nav>
             <ol>
                 <li><a href="/mainpage/index.html">Home<i class="icon-down-open-mini"></i></a></li>
                 <li><a href="/mainpage/weather/weather.html" id="picked">Weather<i class="icon-down-open-mini"></i></a></li>
+                <li><a href="/mainpage/slideshow/slideshow.html">Slideshow<i class="icon-down-open-mini"></i></a></li>
             </ol>
         </nav>
         <div id="clock" onload="currentTime()"></div>
     </header>
 
     <main>
+        <div class="container">
+            <div class="loadingCircle"></div>
+            <div id="message"></div>
+        </div>
         <div class="weatherContainer">
             <div class="container">
                 <label><input id="enterCity" type="text" name="" placeholder="Enter a city" onchange="weather(document.getElementById('enterCity').value)"></label>
@@ -45,9 +51,9 @@
                 <div id="feelsLike"></div>
                 <div id="humidity"></div>
             </div>
-        </div>
-        <div class="container">
-            <div id="message">Only Polish cities are working right now</div>
+            <div class="container">
+                <div id="airPollution">This will be air pollution</div>
+            </div>
         </div>
     </main>
 </body>

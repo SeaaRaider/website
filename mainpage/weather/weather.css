@@ -40,7 +40,7 @@ header
     color: var(--deepBlue);
 }
 
-.name p
+.name span
 {
     margin: 0;
     display: inline-block;
@@ -98,11 +98,19 @@ main
     align-items: center;
 }
 
+#message
+{
+    margin-top: 4vw;
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+
 #enterCity
 {
     padding: 3%;
     background-color: var(--lightGray);
-    border: 1px solid var(--gray)
+    border: 1px solid var(--gray);
+    border-radius: 0.2vw;
 }
 
 #temp
@@ -125,9 +133,65 @@ main
     font-weight: 600;
 }
 
-#message
+@keyframes smooth-appear
 {
-    margin-top: 4vw;
-    font-size: 1.5vw;
-    font-weight: 300;
+    from
+    {
+        top: 0px;
+    }
+    to
+    {
+        top: 10px;
+        opacity:1;
+    }
+}
+
+#airPollution
+{
+    background: gray;
+    padding: 20px;
+    position: relative;
+    opacity:0;
+    border-radius: 10px;
+    animation: smooth-appear 5s ease forwards;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+ 
+
+ @-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.loadingCircle {
+    width: 100px;
+    height: 100px;
+    margin: 110px auto 0;
+    border:solid 10px #8822aa;
+    border-radius: 50%;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+     -webkit-transition: all 0.5s ease-in;
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         1.0s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+        
+         transition: all 0.5s ease-in;
+    animation-name:             rotate; 
+    animation-duration:         1.0s; 
+    animation-iteration-count:  infinite;
+    animation-timing-function: linear; 
 }
