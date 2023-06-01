@@ -1,3 +1,0 @@
-RewriteEngine on
-RewriteRule home index.html
-RewriteRule login login.html
