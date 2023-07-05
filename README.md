@@ -1,14 +1,10 @@
-# Simple site with weather
+# Weather site
 
-## My own website, with basic flexboxes and GET weather API from openweather.
+## Basic website with GET API from OpenWeather.
 
-This is site I made thanks to knowledge gained from online courses on YouTube and Udemy. Its purpose is to give an example what I have learned so far about HTML, CSS, JS and API.
-This site includes:
+This entire project was made to show my basic knowledge of HTML, CSS, JS, API, GitHub and manual testing.
 
-* Simple JavaScript clock script
-* Flexible divisions
-* Basic API displaying current weather, temperature and humidity in any given city in Poland
-
-## The future
-
-As I will gain experience and expand my knowledge I am planning to make the site better by extending it with more API, update UI and make it more responsive.
+## This project includes:
+- Home interface with a picture and basic text
+- Weather interface with box for weather search
+- Documentation of customer requirements, test plan, manual test reports etc.
