@@ -1,6 +1,5 @@
 # Weather site
 <br>
-<br>
 
 ## Basic website with GET API from OpenWeather.
 
