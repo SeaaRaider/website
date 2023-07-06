@@ -1,9 +1,10 @@
-
 # Weather site
+<br>
+<br>
 
 ## Basic website with GET API from OpenWeather.
 
-This entire project was made to show my basic knowledge of HTML, CSS, JS, API, GitHub and manual testing.
+This entire project was made to show my knowledge of HTML, CSS, JS, API, GitHub and Manual Testing tools and techniques.
 
 ## This project includes:
 - Home interface with a picture and basic text
@@ -11,12 +12,30 @@ This entire project was made to show my basic knowledge of HTML, CSS, JS, API, G
 - Documentation of customer requirements, test plan, manual test reports etc.
 
 ##
-### Home interface
+### Interfaces
 
-This is basic homepage with a picture, some lorem text and media.
-<img src="https://github.com/SeaaRaider/Images/blob/main/SS%20Homepage.png">
+Consists of Home and Weather interfaces.
 
+<img src="https://github.com/SeaaRaider/Images/blob/main/Home-Weather.gif"/>
+
+Home interface is a page serving as a initial landing place for user with basic text and image formatting, clock displaying local time and navigation bar.
 ##
-### Weather interface
-Page made for viewing basic weather information of a city entered by user.
-Consists of GET API from OpenWeather and basic error handling.
+
+<img src="https://github.com/SeaaRaider/Images/blob/main/SS%20Weather%20page.png">
+
+Weather interface consists of box for city input by user and weather information display.
+##
+
+<img src="">
+tutaj dać gif z postmana
+
+After a user has input city a GET request is sent to OpenWeather for weather data.
+##
+
+<img src="https://github.com/SeaaRaider/Images/blob/main/Weather%20box.gif">
+
+If user has entered wrong city a error notification will be shown. If city is correct basic weather information will be shown.
+##
+
+[github]: https://github.com/SeaaRaider
+[portfolio-website]: https://github.com/SeaaRaider/website
