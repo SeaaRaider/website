@@ -7,52 +7,54 @@
     <meta name="description" content="Moja strona CV">
     <meta name="keywords" content="CV, strona, QA, programowanie, testy">
 
-    <link rel="stylesheet" href="/mainpage/weather/weather.css" type="text/css">
-    <link rel="stylesheet" href="/mainpage/css/fontello.css" type="text/css">
+    <link rel="stylesheet" href="/weather/weather.css" type="text/css">
+    <link rel="stylesheet" href="/css/fontello.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
 
-    <script src="/mainpage/clock.js"></script>
-    <script src="/mainpage/weather/app.js"></script>
-    <script src="/mainpage/loadIcon.js"></script>
+    <script src="/clock.js"></script>
+    <script src="/weather/app.js"></script>
+    <script src="/loadIcon.js"></script>
 
     <title>StronaCV</title>
 </head>
 
 <body>
-    <header>
-        <i class="icon-paw"></i><div class="name"><span>Mateusz</span> Jankowski</div>
-        <nav>
-            <ol>
-                <li><a href="/mainpage/index.html">Home<i class="icon-down-open-mini"></i></a></li>
-                <li><a href="/mainpage/weather/weather.html" id="picked">Weather<i class="icon-down-open-mini"></i></a></li>
-            </ol>
-        </nav>
-        <div id="clock" onload="currentTime()"></div>
-    </header>
+    <div class="maintile">
+        <header>
+            <div class="name"><span>Mateusz</span> Jankowski</div>
+            <nav>
+                <ol>
+                    <li><a href="/index.html">Home<i class="icon-down-open-mini"></i></a></li>
+                    <li><a href="/weather/weather.html" id="picked">Weather<i class="icon-down-open-mini"></i></a></li>
+                </ol>
+            </nav>
+            <div id="clock" onload="currentTime()"></div>
+        </header>
 
-    <main>
-        <div class="container">
-            <div id="message"></div>
-        </div>
-        <div class="weatherContainer">
+        <main>
             <div class="container">
-                <label><input id="enterCity" type="text" name="" placeholder="Enter a city" onchange="weather(document.getElementById('enterCity').value)"></label>
+                <div id="message"></div>
             </div>
-            <div class="container">
-                <div><img id="image" src=""></div>
-                <div id="temp"></div>
+            <div class="weatherContainer">
+                <div class="container">
+                    <label><input id="enterCity" type="text" name="" placeholder="Enter a city" onchange="weather(document.getElementById('enterCity').value)"></label>
+                </div>
+                <div class="container">
+                    <div><img id="image" src=""></div>
+                    <div id="temp"></div>
+                </div>
+                <div class="container">
+                    <div id="feelsLike"></div>
+                    <div id="humidity"></div>
+                </div>
+                <!-- <div class="container">
+                    <div id="airPollution">This will be air pollution</div>
+                </div> -->
             </div>
-            <div class="container">
-                <div id="feelsLike"></div>
-                <div id="humidity"></div>
-            </div>
-            <!-- <div class="container">
-                <div id="airPollution">This will be air pollution</div>
-            </div> -->
-        </div>
-    </main>
+        </main>
+    </div>
 </body>
 </html>
