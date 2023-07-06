@@ -15,6 +15,7 @@ This entire project was made to show my knowledge of HTML, CSS, JS, API, GitHub 
 ##
 <br>
 <br>
+
 ### Interfaces
 
 Consists of Home and Weather interfaces.
