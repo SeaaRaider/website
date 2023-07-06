@@ -1,4 +1,5 @@
-# Weather site
+
+# Weather site ⛅️
 <br>
 
 ## Basic website with GET API from OpenWeather.
@@ -8,15 +9,15 @@ This entire project was made to show my knowledge of HTML, CSS, JS, API, GitHub 
 <br>
 
 ## This project includes:
-- Home interface with a picture and basic text
-- Weather interface with box for weather search by API request
-- Documentation of customer requirements, test plan, manual test reports etc.
+- Home interface with a picture and basic text 📄
+- Weather interface with box for weather search by API request ⚙️
+- Documentation of customer requirements, test plan, manual test reports etc. 📋
 
 ##
 <br>
 <br>
 
-### Interfaces
+### Interfaces and API ⚙️
 
 Consists of Home and Weather interfaces.
 
@@ -40,6 +41,8 @@ After a user has input city a GET request is sent to OpenWeather for weather dat
 
 If user has entered wrong city a error notification will be shown. If city is correct basic weather information will be shown.
 ##
+
+### Documentation 📋
 
 [github]: https://github.com/SeaaRaider
 [portfolio-website]: https://github.com/SeaaRaider/website
