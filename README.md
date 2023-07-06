@@ -1,14 +1,48 @@
-# Simple site with weather
 
-## My own website, with basic flexboxes and GET weather API from openweather.
+# Weather site ⛅️
+<br>
 
-This is site I made thanks to knowledge gained from online courses on YouTube and Udemy. Its purpose is to give an example what I have learned so far about HTML, CSS, JS and API.
-This site includes:
+## Basic website with GET API from OpenWeather.
 
-* Simple JavaScript clock script
-* Flexible divisions
-* Basic API displaying current weather, temperature and humidity in any given city in Poland
+This entire project was made to show my knowledge of HTML, CSS, JS, API, GitHub and Manual Testing tools and techniques.
+<br>
+<br>
 
-## The future
+## This project includes:
+- Home interface with a picture and basic text 📄
+- Weather interface with box for weather search by API request ⚙️
+- Documentation of customer requirements, test plan, manual test reports etc. 📋
 
-As I will gain experience and expand my knowledge I am planning to make the site better by extending it with more API, update UI and make it more responsive.
+##
+<br>
+<br>
+
+### Interfaces and API ⚙️
+
+Consists of Home and Weather interfaces.
+
+<img src="https://github.com/SeaaRaider/Images/blob/main/Home-Weather.gif"/>
+
+Home interface is a page serving as a initial landing place for user with basic text and image formatting, clock displaying local time and navigation bar.
+##
+
+<img src="https://github.com/SeaaRaider/Images/blob/main/SS%20Weather%20page.png">
+
+Weather interface consists of box for city input by user and weather information display.
+##
+
+<img src="">
+tutaj dać gif z postmana
+
+After a user has input city a GET request is sent to OpenWeather for weather data.
+##
+
+<img src="https://github.com/SeaaRaider/Images/blob/main/Weather%20box.gif">
+
+If user has entered wrong city a error notification will be shown. If city is correct basic weather information will be shown.
+##
+
+### Documentation 📋
+
+[github]: https://github.com/SeaaRaider
+[portfolio-website]: https://github.com/SeaaRaider/website
