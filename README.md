@@ -5,14 +5,16 @@
 
 This entire project was made to show my knowledge of HTML, CSS, JS, API, GitHub and Manual Testing tools and techniques.
 <br>
+<br>
 
 ## This project includes:
 - Home interface with a picture and basic text
 - Weather interface with box for weather search by API request
 - Documentation of customer requirements, test plan, manual test reports etc.
-<br>
 
 ##
+<br>
+<br>
 ### Interfaces
 
 Consists of Home and Weather interfaces.
