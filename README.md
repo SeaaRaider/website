@@ -1,4 +1,5 @@
 
+
 # Weather site ⛅️
 <br>
 
@@ -15,7 +16,14 @@ This entire project was made to show my knowledge of HTML, CSS, JS, API, GitHub 
 
 ##
 <br>
-<br>
+
+## Progress
+
+- Code - ***100%*** - No further improvements planned yet.
+- Documentation - ***80%*** - Minor fixes needed and manual tests are still in progress.
+- Manual tests - ***40%*** - Most of the tests are yet to be done.
+
+##
 
 ### Interfaces and API ⚙️
 
@@ -31,8 +39,7 @@ Home interface is a page serving as a initial landing place for user with basic 
 Weather interface consists of box for city input by user and weather information display.
 ##
 
-<img src="">
-tutaj dać gif z postmana
+<img src="https://github.com/SeaaRaider/Images/blob/main/postman.jpg">
 
 After a user has input city a GET request is sent to OpenWeather for weather data.
 ##
