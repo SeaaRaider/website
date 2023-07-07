@@ -5,14 +5,14 @@
 
 ## Basic website with GET API from OpenWeather.
 
-This entire project was made to show my knowledge of HTML, CSS, JS, API, GitHub and Manual Testing tools and techniques.
+This entire project was made to show my knowledge of **HTML**, **CSS**, **JS**, **API**, **GitHub** and **Manual Testing tools** and **techniques**.
 <br>
 <br>
 
 ## This project includes:
 - Home interface with a picture and basic text 📄
-- Weather interface with box for weather search by API request ⚙️
-- Documentation of customer requirements, test plan, manual test reports etc. 📋
+- Weather interface with box for city input that displays weather sent by **API** ⚙️
+- Documentation of **customer requirements**, **test plan**, **manual test reports** etc. 📋
 
 ##
 <br>
@@ -27,7 +27,7 @@ This entire project was made to show my knowledge of HTML, CSS, JS, API, GitHub 
 
 ### Interfaces and API ⚙️
 
-Consists of Home and Weather interfaces.
+Consists of **Home** and **Weather** interfaces.
 
 <img src="https://github.com/SeaaRaider/Images/blob/main/Home-Weather.gif"/>
 
@@ -50,6 +50,20 @@ If user has entered wrong city a error notification will be shown. If city is co
 ##
 
 ### Documentation 📋
+
+This project documentation consists of:
+
+**Customer requirements** - all information in detail needed to create the website. All manual interface tests are based on that.
+
+**Test plan** - detailed document that specifies test strategies, objectives and available resources.
+
+**Decision table** - document used to better understand how API integration should be handled.
+
+**Use case table** - document used to better understand how API integration should be handled.
+
+**Manual test reports** - each manual test is documented here.
+
+**Error reports (To be delivered)** - each detected defect in documentation or code is documented here. Things like type of error, severity, way to fix, retest and regressions test reports etc. are also here.
 
 [github]: https://github.com/SeaaRaider
 [portfolio-website]: https://github.com/SeaaRaider/website
