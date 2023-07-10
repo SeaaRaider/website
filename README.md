@@ -1,4 +1,4 @@
-WARNING! - Site does not work without Live Server plugin. All references are handled differently with Live Server so CSS, JS and API breaks.
+***WARNING!*** **- Site does not work without Live Server plugin. All references are handled differently with Live Server so CSS, JS and API breaks.**
 
 # Weather site ⛅️
 <br>
