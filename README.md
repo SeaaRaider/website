@@ -1,6 +1,4 @@
-[***CLICK HERE TO VIEW THE WEBSITE***](https://seaaraider.github.io/website/)
-
-# Weather site ⛅️
+# [Weather site - Click here to view it!](https://seaaraider.github.io/website/) ⛅️
 <br>
 
 ## Basic website with GET API from OpenWeather.
