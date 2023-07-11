@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Moja strona CV">
+    <meta name="keywords" content="CV, strona, QA, programowanie, testy">
+
+    <link rel="stylesheet" href="weather.css" type="text/css">
+    <link rel="stylesheet" href="fontello.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+    <script src="clock.js"></script>
+    <script src="app.js"></script>
+
+    <title>StronaCV</title>
+</head>
+
+<body>
+    <div class="maintile">
+        <header>
+            <div class="name"><span>Mateusz</span> Jankowski</div>
+            <nav>
+                <ol>
+                    <li><a href="index.html">Home<i class="icon-down-open-mini"></i></a></li>
+                    <li><a href="weather.html" id="picked">Weather<i class="icon-down-open-mini"></i></a></li>
+                </ol>
+            </nav>
+            <div id="clock" onload="currentTime()"></div>
+        </header>
+
+        <main>
+            <div class="container">
+                <div id="message"></div>
+            </div>
+            <div class="weatherContainer">
+                <div class="container">
+                    <label><input id="enterCity" type="text" name="" placeholder="Enter a city" onchange="weather(document.getElementById('enterCity').value)"></label>
+                </div>
+                <div class="container">
+                    <div><img id="image" src=""></div>
+                    <div id="temp"></div>
+                </div>
+                <div class="container">
+                    <div id="feelsLike"></div>
+                    <div id="humidity"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
