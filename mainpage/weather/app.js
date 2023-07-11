@@ -22,7 +22,7 @@ function weather(val){
             let clouds = data.weather[0].icon;
             clouds = clouds[0] + clouds[1];
 
-            document.getElementById('image').src = "/mainpage/icons/" + clouds +".png";
+            document.getElementById('image').src = "icons/" + clouds +".png";
             document.getElementById('message').textContent = " ";
         }
     })
