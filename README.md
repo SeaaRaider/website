@@ -1,4 +1,4 @@
-***WARNING!*** **- Site does not work without Live Server plugin. All references are handled differently with Live Server so CSS, JS and API breaks.**
+[***CLICK HERE TO VIEW THE WEBSITE***](seaaraider.github.io/website/mainpage/)
 
 # Weather site ⛅️
 <br>
