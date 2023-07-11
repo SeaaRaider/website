@@ -1,4 +1,4 @@
-[***CLICK HERE TO VIEW THE WEBSITE***](https://www.seaaraider.github.io/website/mainpage)
+[***CLICK HERE TO VIEW THE WEBSITE***](https://seaaraider.github.io/website/mainpage)
 
 # Weather site ⛅️
 <br>
